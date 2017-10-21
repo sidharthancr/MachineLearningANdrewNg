@@ -1,0 +1,22 @@
+Team,
+
+We need to add the below attributes in the Velocify xml post from Portal:
+
+<UTM_Source></UTM_Source>
+<UTM_Medium></UTM_Medium>
+<UTM_Campaign></UTM_Campaign>
+<UTM_Content></UTM_Content>
+
+These are some of the web fields, we already receive these values from web in different fields, so below is mapping on how we would map the data and send these:
+
+UTM_Source = MarketingCreativeURL
+UTM_Medium = OE
+UTM_Campaign = GCLID
+UTM_Content = Creative
+
+We would add these fields for all xml posts and these can be empty for non web leads.
+
+Let's discuss this on our tomorrow's call as this is needed at the earliest.
+
+Regards
+Shikha
